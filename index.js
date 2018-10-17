@@ -18,7 +18,7 @@ app.get('/',function(req,res){
 });
 
 
-
+//socket code
 io.on('connection', function(socket) {
     console.log("connection established");
 
